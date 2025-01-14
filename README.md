@@ -8,7 +8,8 @@ import { ChatOpenAI } from "@langchain/openai";
 const llm = new ChatOpenAI({ temperature: 0 });
 
 ```
-##Note: update the env configuration
+## Note: update the env configuration
+for web seach use Tavily Search API (https://langchain-ai.github.io/langgraphjs/tutorials/quickstart/)
 
 ## Getting Started
 
