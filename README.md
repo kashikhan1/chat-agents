@@ -1,5 +1,15 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+chat with LLM LangGraph.js
+
+currently priject uses ollama chat incase you want to useopenAI please use the following commands inside src/ai/llm-model/ollama.ts
+```
+import { ChatOpenAI } from "@langchain/openai";
+const llm = new ChatOpenAI({ temperature: 0 });
+
+```
+##Note: update the env configuration
+
 ## Getting Started
 
 First, run the development server:
@@ -13,6 +23,8 @@ pnpm dev
 # or
 bun dev
 ```
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
